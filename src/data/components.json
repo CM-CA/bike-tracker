@@ -1,36 +1,166 @@
 {
   "components": [
     {
-      "id": "button",
-      "name": "Botón Básico",
-      "description": "Componente de botón estilizado con Tailwind CSS",
-      "category": "Elementos Interactivos",
-      "tags": ["ui", "interactivo", "básico"],
-      "code": {
-        "astro": "src/components/ComponentShowcase/Button.astro",
-        "preview": "Ejemplo de un botón simple con diferentes estilos"
-      },
-      "variants": [
-        "primary",
-        "secondary", 
-        "outline"
-      ]
+      "marca": "Specialized",
+      "modelo": "Rockhopper",
+      "img": "/src/assets/img_catalogo_bicis/specialized_rockhopper.jpg",
+      "color": "Negro",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 1
     },
     {
-      "id": "card",
-      "name": "Tarjeta Informativa",
-      "description": "Componente de tarjeta flexible y personalizable",
-      "category": "Contenedores",
-      "tags": ["ui", "contenedor", "información"],
-      "code": {
-        "astro": "src/components/ComponentShowcase/Card.astro",
-        "preview": "Ejemplo de tarjeta con diferentes diseños"
-      },
-      "variants": [
-        "default",
-        "elevated",
-        "bordered"
-      ]
+      "marca": "Giant",
+      "modelo": "Advanced",
+      "img": "/src/assets/img_catalogo_bicis/giant_advanced.jpg",
+      "color": "Blanco",
+      "tipo": "CARRETERA",
+      "localizada": "si",
+      "id": 2
+    },
+    {
+      "marca": "Orbea",
+      "modelo": "Orca",
+      "img": "/src/assets/img_catalogo_bicis/orbea_orca.jpg",
+      "color": "Blanco",
+      "tipo": "CARRETERA",
+      "localizada": "si",
+      "id": 3
+    },
+    {
+      "marca": "Cannondale",
+      "modelo": "Trail",
+      "img": "/src/assets/img_catalogo_bicis/cannondale_trail.jpg",
+      "color": "Negro",
+      "tipo": "MTB",
+      "localizada": "si",
+      "id": 4
+    },
+    {
+      "marca": "Liv",
+      "modelo": "Tempt",
+      "img": "/src/assets/catalogo-mtb/liv-tempt.jpeg",
+      "color": "Gris",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 5
+    },
+    {
+      "marca": "Santa Cruz",
+      "modelo": "Highball",
+      "img": "/src/assets/catalogo-mtb/santacruz-highball.jpeg",
+      "color": "Negro",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 6
+    },
+    {
+      "marca": "Colouer",
+      "modelo": "Limbo",
+      "img": "/src/assets/catalogo-mtb/colouer-limbo.jpeg",
+      "color": "Negro",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 7
+    },
+    {
+      "marca": "Megamo",
+      "modelo": "Factory",
+      "img": "/src/assets/catalogo-mtb/megamo-factory.png",
+      "color": "Verde",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 8
+    },
+    {
+      "marca": "Cube",
+      "modelo": "Access WS",
+      "img": "/src/assets/catalogo-mtb/cube-access-ws.jpeg",
+      "color": "Violeta",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 9
+    },
+    {
+      "marca": "Ghost",
+      "modelo": "Kato Universal",
+      "img": "/src/assets/catalogo-mtb/ghost-kato.jpeg",
+      "color": "Negro",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 10
+    },
+    {
+      "marca": "Colouer",
+      "modelo": "Pragma",
+      "img": "/src/assets/catalogo-mtb/colouer-pragma.jpeg",
+      "color": "Gris",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 11
+    },
+    {
+      "marca": "Giant",
+      "modelo": "Stance",
+      "img": "/src/assets/catalogo-mtb/giant-stance-1-29-2022.jpeg",
+      "color": "Rojo",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 12
+    },
+    {
+      "marca": "Giant",
+      "modelo": "Trance",
+      "img": "/src/assets/catalogo-mtb/giant-tranced.jpeg",
+      "color": "Negro",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 13
+    },
+    {
+      "marca": "Santa Cruz",
+      "modelo": "Hightower",
+      "img": "/src/assets/catalogo-mtb/santacruz-hightower.jpeg",
+      "color": "Naranja",
+      "tipo": "MTB",
+      "localizada": "si",
+      "id": 14
+    },
+    {
+      "marca": "Santa Cruz",
+      "modelo": "Megatower",
+      "img": "/src/assets/catalogo-mtb/santacruz-megatower.jpeg",
+      "color": "Amarillo",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 15
+    },
+    {
+      "marca": "Santa Cruz",
+      "modelo": "Nomad",
+      "img": "/src/assets/catalogo-mtb/santacruz-nomad.jpeg",
+      "color": "Verde",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 16
+    },
+    {
+      "marca": "Connor",
+      "modelo": "8500",
+      "img": "/src/assets/catalogo-mtb/conor-8500.jpeg",
+      "color": "Verde",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 17
+    },
+    {
+      "marca": "Cube",
+      "modelo": "Acid",
+      "img": "/src/assets/catalogo-mtb/cube-acid.jpeg",
+      "color": "Azul",
+      "tipo": "MTB",
+      "localizada": "no",
+      "id": 18
     }
   ]
 }
