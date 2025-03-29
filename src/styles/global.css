@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import "flowbite/src/themes/default";
+@import "flowbite/src/themes/default.css";
+@import "flowbite";
+
 :root {
   /* Light mode colors */
   --bg-primary: #ffffff;
