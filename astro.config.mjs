@@ -14,6 +14,6 @@ export default defineConfig({
 
   integrations: [vue(), clerk({localization: esES})],
   adapter: node({ mode: 'standalone' }),
-  output: 'static',
+  output: 'server',
 
 });
