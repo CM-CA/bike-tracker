@@ -7,7 +7,7 @@
       "color": "Negro",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2022-08-01",
+      "fechaRegistro": "2022-08-01",
       "id": 1
     },
     {
@@ -17,7 +17,7 @@
       "color": "Blanco",
       "tipo": "CARRETERA",
       "localizada": "si",
-      "fecha-registro": "2023-03-12",
+      "fechaRegistro": "2023-03-12",
       "id": 2
     },
     {
@@ -27,7 +27,7 @@
       "color": "Blanco",
       "tipo": "CARRETERA",
       "localizada": "si",
-      "fecha-registro": "2024-07-05",
+      "fechaRegistro": "2024-07-05",
       "id": 3
     },
     {
@@ -37,7 +37,7 @@
       "color": "Negro",
       "tipo": "MTB",
       "localizada": "si",
-      "fecha-registro": "2024-07-05",
+      "fechaRegistro": "2024-07-05",
       "id": 4
     },
     {
@@ -47,7 +47,7 @@
       "color": "Gris",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2025-04-01",
+      "fechaRegistro": "2025-04-01",
       "id": 5
     },
     {
@@ -57,7 +57,7 @@
       "color": "Negro",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2022-08-12",
+      "fechaRegistro": "2022-08-12",
       "id": 6
     },
     {
@@ -67,7 +67,7 @@
       "color": "Negro",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2025-04-01",
+      "fechaRegistro": "2025-04-01",
       "id": 7
     },
     {
@@ -77,7 +77,7 @@
       "color": "Verde",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2025-04-12",
+      "fechaRegistro": "2025-04-12",
       "id": 8
     },
     {
@@ -87,7 +87,7 @@
       "color": "Violeta",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2023-10-11",
+      "fechaRegistro": "2023-10-11",
       "id": 9
     },
     {
@@ -97,7 +97,7 @@
       "color": "Negro",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2022-02-21",
+      "fechaRegistro": "2022-02-21",
       "id": 10
     },
     {
@@ -107,7 +107,7 @@
       "color": "Gris",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2023-09-10",
+      "fechaRegistro": "2023-09-10",
       "id": 11
     },
     {
@@ -117,7 +117,7 @@
       "color": "Rojo",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2024-12-31",
+      "fechaRegistro": "2024-12-31",
       "id": 12
     },
     {
@@ -127,7 +127,7 @@
       "color": "Negro",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2024-11-11",
+      "fechaRegistro": "2024-11-11",
       "id": 13
     },
     {
@@ -137,7 +137,7 @@
       "color": "Naranja",
       "tipo": "MTB",
       "localizada": "si",
-      "fecha-registro": "2024-01-15",
+      "fechaRegistro": "2024-01-15",
       "id": 14
     },
     {
@@ -147,7 +147,7 @@
       "color": "Amarillo",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2024-06-17",
+      "fechaRegistro": "2024-06-17",
       "id": 15
     },
     {
@@ -157,7 +157,7 @@
       "color": "Verde",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2022-05-12",
+      "fechaRegistro": "2022-05-12",
       "id": 16
     },
     {
@@ -167,7 +167,7 @@
       "color": "Verde",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2022-12-11",
+      "fechaRegistro": "2022-12-11",
       "id": 17
     },
     {
@@ -177,7 +177,7 @@
       "color": "Azul",
       "tipo": "MTB",
       "localizada": "no",
-      "fecha-registro": "2023-04-06",
+      "fechaRegistro": "2023-04-06",
       "id": 18
     }
   ]
