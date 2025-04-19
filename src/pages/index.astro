@@ -3,14 +3,16 @@ import CardComponent from "../components/CardComponent.astro";
 import Layout from "../layouts/Layout.astro";
 import { components } from "../data/bicicletas.json";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Ordenar componentes por fecha de registro, de más reciente a más antigua
+const sortedComponents = components.sort((a, b) => 
+  new Date(b.fechaRegistro).getTime() - new Date(a.fechaRegistro).getTime()
+);
 ---
 
 <Layout>
   <h1 class="text-6xl font-bold text-center">Bike Tracker</h1>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 p-4">
-    {components.slice(0, 5).map((component) => (
+    {sortedComponents.slice(0, 15).map((component) => (
       <CardComponent
         marca={component.marca}
         modelo={component.modelo}
@@ -18,6 +20,7 @@ import { components } from "../data/bicicletas.json";
         color={component.color}
         tipo={component.tipo}
         localizada={component.localizada}
+        fechaRegistro={component.fechaRegistro}
       />
     ))}
   </div>
