@@ -1,4 +1,5 @@
 ---
+import AuthComponent from "../components/AuthComponent.astro";
 import "./src/styles/global.css";
 interface Props {
   title?: string;
@@ -31,31 +32,9 @@ const { title = "Bike Tracker" } = Astro.props;
           </svg>
           Bike Tracker
         </div>
-        <div class="space-x-4">
-          <SignedOut>
-            <SignInButton 
-              mode="modal" 
-              appearance={{
-                elements: {
-                  rootBox: 'transition-all duration-300 hover:scale-105',
-                  card: 'bg-white shadow-xl rounded-lg'
-                }
-              }}
-              class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-            >
-              Iniciar Sesión
-            </SignInButton>
-          </SignedOut>
-          <SignedIn>
-            <UserButton 
-              appearance={{
-                elements: {
-                  userButtonAvatarBox: 'border-2 border-blue-500'
-                }
-              }}
-            />
-          </SignedIn>
-        </div>
+        {/*
+         <AuthComponent />
+        */}
       </div>
     </nav>
 

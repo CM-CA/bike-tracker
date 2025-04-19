@@ -1,0 +1,34 @@
+---
+// Importaciones necesarias
+import { SignedIn, SignedOut, UserButton, SignInButton } from '@clerk/astro/components'
+---
+
+{/* Contenedor de elementos de autenticación con espaciado horizontal */}
+<div class="space-x-4">
+  {/* Componente para usuarios no autenticados - Botón de Iniciar Sesión */}
+  <SignedOut>
+    <SignInButton 
+      mode="modal" 
+      appearance={{
+        elements: {
+          rootBox: 'transition-all duration-300 hover:scale-105', // Efecto de escala al pasar el ratón
+          card: 'bg-white shadow-xl rounded-lg' // Estilo de la tarjeta de inicio de sesión
+        }
+      }}
+      class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors" // Estilo del botón
+    >
+      Iniciar Sesión
+    </SignInButton>
+  </SignedOut>
+  
+  {/* Componente para usuarios autenticados - Botón de Usuario */}
+  <SignedIn>
+    <UserButton 
+      appearance={{
+        elements: {
+          userButtonAvatarBox: 'border-2 border-blue-500' // Añade un borde azul al avatar
+        }
+      }}
+    />
+  </SignedIn>
+</div>
